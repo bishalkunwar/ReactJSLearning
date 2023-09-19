@@ -215,12 +215,17 @@
 
 import Gallery from "./Components/HooksForComponentsState";
 import Form from "./Components/formWithHooks";
+import FormMSG from "./Components/formSubmissionMSG";
+import StateSnap from "./Components/StateSnapshot";
 
 export default function App(){
   return(
     <div>
       <Gallery/>
       <Form/>
+      <FormMSG/>
+      <hr/><br/><br/>
+      <StateSnap/>
     </div>
   )
 };
