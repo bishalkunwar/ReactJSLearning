@@ -218,6 +218,7 @@ import Form from "./Components/formWithHooks";
 import FormMSG from "./Components/formSubmissionMSG";
 import StateSnap from "./Components/StateSnapshot";
 import Batching from "./Components/StateBatching";
+import ObjectState from "./Components/UpdatingObjectsState";
 
 export default function App(){
   return(
@@ -229,6 +230,8 @@ export default function App(){
       <StateSnap/>
       <hr/><br/><br/>
       <Batching/>
+      <hr/><br/><br/>
+      <ObjectState/>
     </div>
   )
 };
