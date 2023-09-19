@@ -217,6 +217,7 @@ import Gallery from "./Components/HooksForComponentsState";
 import Form from "./Components/formWithHooks";
 import FormMSG from "./Components/formSubmissionMSG";
 import StateSnap from "./Components/StateSnapshot";
+import Batching from "./Components/StateBatching";
 
 export default function App(){
   return(
@@ -226,6 +227,8 @@ export default function App(){
       <FormMSG/>
       <hr/><br/><br/>
       <StateSnap/>
+      <hr/><br/><br/>
+      <Batching/>
     </div>
   )
 };
