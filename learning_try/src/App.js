@@ -219,7 +219,8 @@ import FormMSG from "./Components/formSubmissionMSG";
 import StateSnap from "./Components/StateSnapshot";
 import Batching from "./Components/StateBatching";
 import ObjectState from "./Components/UpdatingObjectsState";
-import Main from "./Components/fixingMutation/Main";
+// import Main from "./Components/fixingMutation/Main";
+import Todo from "./Components/updatingArrayInState/Todo";
 
 export default function App(){
   return(
@@ -234,7 +235,10 @@ export default function App(){
       <hr/><br/><br/>
       <ObjectState/>
       <hr/><br/><br/>
-      <Main/>
+      {/* <Main/>
+      <hr/><br/><br/> */}
+      <Todo/>
+      <hr/><br/><br/>
     </div>
   )
 };
