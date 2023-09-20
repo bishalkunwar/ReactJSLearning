@@ -219,6 +219,7 @@ import FormMSG from "./Components/formSubmissionMSG";
 import StateSnap from "./Components/StateSnapshot";
 import Batching from "./Components/StateBatching";
 import ObjectState from "./Components/UpdatingObjectsState";
+import Main from "./Components/fixingMutation/Main";
 
 export default function App(){
   return(
@@ -232,6 +233,8 @@ export default function App(){
       <Batching/>
       <hr/><br/><br/>
       <ObjectState/>
+      <hr/><br/><br/>
+      <Main/>
     </div>
   )
 };
