@@ -22,16 +22,16 @@ export default function Todo(){
 
     function handleAscSort(){
         const nextList = [...artists];
-        nextList.sort((a, b) => a.name.localeCompare(b.name));
-        //nextList.sort((a,b)=> a.name>b.name ? 1 : a.name===b.name ? 0 : -1);
+        // nextList.sort((a, b) => a.name.localeCompare(b.name));
+        nextList.sort((a,b)=> a.name.toLowerCase()>b.name.toLowerCase() ? 1 : a.name.toLowerCase()===b.name.toLowerCase() ? 0 : -1);
         // console.log(nextList);
         setArtists(nextList);
     }
 
     function handleDescSort(){
         const nextList = [...artists];
-        nextList.sort((a,b)=> b.name.localeCompare(a.name));
-        // nextList.sort((a,b)=> a.name< b.name ? 1 : a.name===b.name ? 0 : -1 );
+        // nextList.sort((a,b)=> b.name.localeCompare(a.name));
+        nextList.sort((a,b)=> a.name.toLowerCase()< b.name.toLowerCase() ? 1 : a.name.toLowerCase()===b.name.toLowerCase() ? 0 : -1 );
         setArtists(nextList);
     }
 
