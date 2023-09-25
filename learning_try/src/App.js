@@ -223,6 +223,7 @@ import ObjectState from "./Components/UpdatingObjectsState";
 import Todo from "./Components/updatingArrayInState/Todo";
 import CheckToogleState from "./Components/updatingArrayInState/CheckToogleState";
 import ShoppingCart from "./Components/updatingArrayInState/ShoppingCart";
+import App1 from "./Components/Todo/App1";
 
 export default function App(){
   return(
@@ -245,6 +246,7 @@ export default function App(){
       <hr/><br/><br/>
       <ShoppingCart/>
       <hr/><br/><br/>
+      <App1/>
     </div>
   )
 };
