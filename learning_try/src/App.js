@@ -225,6 +225,7 @@ import CheckToogleState from "./Components/updatingArrayInState/CheckToogleState
 import ShoppingCart from "./Components/updatingArrayInState/ShoppingCart";
 import App1 from "./Components/Todo/App1";
 import Picture from "./Components/ManagingState/App2";
+import FormShowData from "./Components/ManagingState/FormShowEdit";
 
 export default function App(){
   return(
@@ -251,6 +252,8 @@ export default function App(){
       <hr/><br/><br/>
       <hr/><br/><br/>
       <Picture/>
+      <hr/><br/><br/>
+      <FormShowData/>
       
     </div>
       

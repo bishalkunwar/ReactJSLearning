@@ -21,7 +21,7 @@ export default function Picture(){
     }
 
     return(
-        <div className={backGround} onClick={()=> setIsActive(true)} >
+        <div className={backGround} onClick={()=> setIsActive(false)} >
 
             <img className={picture}
                 onClick={e=>{
