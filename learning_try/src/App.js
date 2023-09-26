@@ -224,10 +224,11 @@ import Todo from "./Components/updatingArrayInState/Todo";
 import CheckToogleState from "./Components/updatingArrayInState/CheckToogleState";
 import ShoppingCart from "./Components/updatingArrayInState/ShoppingCart";
 import App1 from "./Components/Todo/App1";
+import Picture from "./Components/ManagingState/App2";
 
 export default function App(){
   return(
-    <div>
+    <div>  
       <Gallery/>
       <Form/>
       <FormMSG/>
@@ -238,15 +239,20 @@ export default function App(){
       <hr/><br/><br/>
       <ObjectState/>
       <hr/><br/><br/>
-      {/* <Main/>
-      <hr/><br/><br/> */}
+      {/* <Main/> */}
+      <hr/><br/><br/> 
       <Todo/>
       <hr/><br/><br/>
       <CheckToogleState/>
       <hr/><br/><br/>
-      <ShoppingCart/>
+      <ShoppingCart/> 
       <hr/><br/><br/>
-      <App1/>
+      <App1/> 
+      <hr/><br/><br/>
+      <hr/><br/><br/>
+      <Picture/>
+      
     </div>
+      
   )
 };
