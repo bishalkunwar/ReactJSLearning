@@ -226,6 +226,7 @@ import ShoppingCart from "./Components/updatingArrayInState/ShoppingCart";
 import App1 from "./Components/Todo/App1";
 import Picture from "./Components/ManagingState/App2";
 import FormShowData from "./Components/ManagingState/FormShowEdit";
+import SharingStates from "./Components/SharingStateBetweenComponents/SharedComponents";
 
 export default function App(){
   return(
@@ -254,6 +255,8 @@ export default function App(){
       <Picture/>
       <hr/><br/><br/>
       <FormShowData/>
+      <hr/><br/><br/>
+      <SharingStates/>
       
     </div>
       
