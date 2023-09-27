@@ -228,6 +228,7 @@ import Picture from "./Components/ManagingState/App2";
 import FormShowData from "./Components/ManagingState/FormShowEdit";
 import SharingStates from "./Components/SharingStateBetweenComponents/SharedComponents";
 import FilterLists from "./Components/SharingStateBetweenComponents/StateSetToSearchReduce";
+import App3 from "./Components/PreservingAndResettingState/App3";
 
 export default function App(){
   return(
@@ -260,6 +261,8 @@ export default function App(){
       <SharingStates/>
       <hr/><br/><br/>
       <FilterLists/>
+      <hr/><br/><br/>
+      <App3/>
       
     </div>
       
