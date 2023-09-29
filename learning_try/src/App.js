@@ -229,6 +229,7 @@ import FormShowData from "./Components/ManagingState/FormShowEdit";
 import SharingStates from "./Components/SharingStateBetweenComponents/SharedComponents";
 import FilterLists from "./Components/SharingStateBetweenComponents/StateSetToSearchReduce";
 import App3 from "./Components/PreservingAndResettingState/App3";
+import App4 from "./Components/PreservingAndResettingState/ChatForm/App4";
 
 export default function App(){
   return(
@@ -263,6 +264,8 @@ export default function App(){
       <FilterLists/>
       <hr/><br/><br/>
       <App3/>
+      <hr/><br/><br/>
+      <App4/>
       
     </div>
       
