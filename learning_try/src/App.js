@@ -232,6 +232,7 @@ import App3 from "./Components/PreservingAndResettingState/App3";
 import App4 from "./Components/PreservingAndResettingState/ChatForm/App4";
 import FormReset from "./Components/PreservingAndResettingState/FormStateResetExample/ResetForm";
 import SwapExample from "./Components/PreservingAndResettingState/SwapFormValues/SwapExample";
+import Main from "./Components/PreservingAndResettingState/DetailedForm/Main";
 
 export default function App(){
   return(
@@ -272,6 +273,8 @@ export default function App(){
       <FormReset/>
       <hr/><br/><br/>
       <SwapExample/>
+      <hr/><br/><br/>
+      <Main/>
       
     </div>
       
