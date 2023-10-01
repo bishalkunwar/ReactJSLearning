@@ -230,6 +230,8 @@ import SharingStates from "./Components/SharingStateBetweenComponents/SharedComp
 import FilterLists from "./Components/SharingStateBetweenComponents/StateSetToSearchReduce";
 import App3 from "./Components/PreservingAndResettingState/App3";
 import App4 from "./Components/PreservingAndResettingState/ChatForm/App4";
+import FormReset from "./Components/PreservingAndResettingState/FormStateResetExample/ResetForm";
+import SwapExample from "./Components/PreservingAndResettingState/SwapFormValues/SwapExample";
 
 export default function App(){
   return(
@@ -266,6 +268,10 @@ export default function App(){
       <App3/>
       <hr/><br/><br/>
       <App4/>
+      <hr/><br/><br/>
+      <FormReset/>
+      <hr/><br/><br/>
+      <SwapExample/>
       
     </div>
       
