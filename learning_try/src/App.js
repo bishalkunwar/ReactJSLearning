@@ -223,11 +223,17 @@ import ObjectState from "./Components/UpdatingObjectsState";
 import Todo from "./Components/updatingArrayInState/Todo";
 import CheckToogleState from "./Components/updatingArrayInState/CheckToogleState";
 import ShoppingCart from "./Components/updatingArrayInState/ShoppingCart";
-import ResetForm from "./Components/FormStateResetExample/ResetForm";
+import App1 from "./Components/Todo/App1";
+import Picture from "./Components/ManagingState/App2";
+import FormShowData from "./Components/ManagingState/FormShowEdit";
+import SharingStates from "./Components/SharingStateBetweenComponents/SharedComponents";
+import FilterLists from "./Components/SharingStateBetweenComponents/StateSetToSearchReduce";
+import App3 from "./Components/PreservingAndResettingState/App3";
+import App4 from "./Components/PreservingAndResettingState/ChatForm/App4";
 
 export default function App(){
   return(
-    <div>
+    <div>  
       <Gallery/>
       <Form/>
       <FormMSG/>
@@ -238,15 +244,30 @@ export default function App(){
       <hr/><br/><br/>
       <ObjectState/>
       <hr/><br/><br/>
-      {/* <Main/>
-      <hr/><br/><br/> */}
+      {/* <Main/> */}
+      <hr/><br/><br/> 
       <Todo/>
       <hr/><br/><br/>
       <CheckToogleState/>
       <hr/><br/><br/>
-      <ShoppingCart/>
+      <ShoppingCart/> 
       <hr/><br/><br/>
-      <ResetForm/>
+      <App1/> 
+      <hr/><br/><br/>
+      <hr/><br/><br/>
+      <Picture/>
+      <hr/><br/><br/>
+      <FormShowData/>
+      <hr/><br/><br/>
+      <SharingStates/>
+      <hr/><br/><br/>
+      <FilterLists/>
+      <hr/><br/><br/>
+      <App3/>
+      <hr/><br/><br/>
+      <App4/>
+      
     </div>
+      
   )
 };
